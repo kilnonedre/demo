@@ -1,7 +1,11 @@
 module.exports = {
   types: [
     {
-      value: 'feat',
+      value: '1111111',
+      name: '✨ feat      新功能',
+    },
+    {
+      value: '✨ feat',
       name: '✨ feat      新功能',
     },
     {

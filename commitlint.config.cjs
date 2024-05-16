@@ -9,7 +9,7 @@
 // test: 添加缺失的测试或更正现有测试
 
 module.exports = {
-  extends: ['cz', '@commitlint/config-conventional'],
+  extends: ['cz', 'git-commit-emoji'],
   rules: {
     'body-leading-blank': [1, 'always'],
     'body-max-line-length': [2, 'always', 100],
@@ -26,23 +26,5 @@ module.exports = {
     'subject-full-stop': [2, 'never', '.'],
     'type-case': [2, 'always', 'lower-case'],
     'type-empty': [2, 'never'],
-    'type-enum': [
-      2,
-      'always',
-      [
-        'build',
-        'chore',
-        'ci',
-        'docs',
-        'feat',
-        'fix',
-        'perf',
-        'refactor',
-        'revert',
-        'style',
-        'test',
-        'release',
-      ],
-    ],
   },
 }
